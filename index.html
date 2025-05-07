@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Writing Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Writing Assistant</h1>
+    <textarea id="inputText" placeholder="Enter your text here..."></textarea>
+    <label for="wordGoal">Word Goal:</label>
+    <input type="number" id="wordGoal" min="0" placeholder="Optional" />
+    <br />
+    <button onclick="processText()">Analyze</button>
+    <div class="output" id="output"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
